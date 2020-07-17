@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.container:nth-child(1) {
+  background: #bcc4c0;
+}
+
+.container:nth-child(2) {
+  background: #decdc6;
+}
+
+.container:nth-child(3) {
+  background: #ded2b8;
+}
+
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.reveal {
+  visibility: hidden;
+  position: relative;
+  width: 60%;
+  height: 60%;
+}
